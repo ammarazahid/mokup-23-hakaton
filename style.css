@@ -1,0 +1,84 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+#channels{
+    display: flex;
+    flex-direction: row;
+
+}
+body{
+    display: flex;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#page{
+    background: white;
+    padding: 20px;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#info h2{
+    color: white;
+}
+
+
+#info {
+    background-color:#3f0e40;
+    color: #c5b7c7;
+    margin-top: 0;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.side-bar{
+    background: #210721;
+    padding: 5px;
+    width: 100%;
+}
+
+#page i{
+    font-size :30px;
+    color:#ccc;
+}
+
+button{
+    border: 1px solid #1c9bd2 ;
+    border-radius: 38px;
+}
+ 
+
+button  i{
+    color: black;
+}
+
+#message-02{
+    display: flex;
+    background-color: #fef9ed;
+}
+
+#froggy{
+    width: 300px;
+    height: 300px;
+}
+
+.message-1{
+    display: flex;
+    padding: 20px;
+}
