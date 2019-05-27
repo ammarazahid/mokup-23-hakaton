@@ -7,6 +7,7 @@
 
 <head>
     <title>Slack</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -15,25 +16,25 @@
 <body>
     <section id="channels">
         <div class="side-bar">
-            <div><img src="mockups/capture.png"></div>
-            <div><img src="mockups/1.png"></div>
-            <div><img src="mockups/2.png"></div>
+            <div><img class="side-image" src="mockups/ecoenergy.png"></div>
+            <div><img class="side-image" src="mockups/t.png"></div>
+            <div><img src="mockups/+.png"></div>
         </div>
         <div id="info">
-            <div>
+            <div class="top">
                 <div>
-                    <h2>tk-2019</h2>
-                    <p>Ammara Zahid</p>
+                    <h4 class="tk">tk-2019<i class="fas fa-angle-down"></i></h4>
+                    <p class="my-name">Ammara Zahid</p>
                 </div>
-                <div>
-                    <i class="fal fa-bell"></i>
+                <div class="bell-icon">
+                    <i class="far fa-bell"></i>
                 </div>
             </div>
             <input type="search" placeholder="Jump to..">
             <div>
-                <div>
-                    <h2>All threads</h2>
-                    <p><i class="fal fa-sms"></i>Threads</p>
+                <div class="unread">
+                    <h4><i class="fas fa-align-left"></i>All Unreads</h4>
+                    <p><i class="far fa-comment-dots"></i>Threads</p>
                 </div>
                 <div>
                     <p>Channels</p>
@@ -51,6 +52,7 @@
                         <li><i class="fas fa-hashtag"></i>freecodecamp</li>
                     </ul>
                 </div>
+            </div>
             </div>
     </section>
     <section id="page">
