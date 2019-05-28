@@ -101,6 +101,12 @@ ul{
 }
 
 
+.left h4{
+    margin-top: auto;
+    margin-bottom: 3px;;
+}
+
+
 #info {
     background-color:#3f0e40;
     color: #c5b7c7;
@@ -118,23 +124,40 @@ ul{
 }
 
 #page i{
-    font-size :30px;
-    color:#ccc;
+    font-size: smaller;
+        color:#ccc;
+}
+
+.frst h3{
+    margin-top: auto;
+}
+
+.frst{
+    margin-left: 6px;
 }
 
 button{
     border: 1px solid #1c9bd2 ;
     border-radius: 38px;
 }
+
+#messages{
+    margin-left: 23px;
+}
  
 
-button  i{
+#check{
     color: black;
 }
 
 #message-02{
     display: flex;
     background-color: #fef9ed;
+}
+
+#second{
+    display: flex;
+    
 }
 
 #froggy{
