@@ -5,7 +5,34 @@
 #channels{
     display: flex;
     flex-direction: row;
+}
 
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.right{
+    display: flex;
+    align-items: flex-end;
+}
+
+fieldset{
+    border-top: 1px solid #ccc;
+    text-align: center;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    font-weight: bold;
+
+}
+
+
+*{
+    font-family: 'Lato', sans-serif;
 }
 
 .bell-icon{
@@ -21,6 +48,11 @@
 .tk{
     margin-top: 10px;
     margin-bottom: 2px;
+}
+
+.top i{
+    color: #c5b7c6
+    
 }
 
 input{
@@ -67,6 +99,10 @@ li > i{
     margin-bottom: 1px;
 }
 
+.unread > p{
+    margin-top: 1px;
+}
+
 
 img{
     width: 30px;
@@ -76,19 +112,34 @@ img{
 
 #page{
     background: white;
-    padding: 20px;
     width: 100%;
 }
 
-header{
-    display: flex;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+header i {
+    padding: 6px;
 }
+
+.left i{
+    border-right: 2px solid #ccc;
+}
+
+header{
+    display: block;
+    margin-bottom: 10px;
+    padding: 20px 20px 5px 20px
+}
+
+/* .left{
+    margin: 0px;
+    display: flex;
+    align-items: flex-end;
+
+} */
 
 li{
     list-style-type: none;
+    line-height: 18px;
+    font-size: 13px;
 }
 
 ul{
@@ -110,11 +161,27 @@ ul{
 #info {
     background-color:#3f0e40;
     color: #c5b7c7;
-    margin-top: 0px;
+    margin-top: 0;
     padding: 10px 12px 0 12px;
     width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     
+}
+
+#search{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 4px;
+}
+
+/* .right{
+    display: flex;
+    margin-left: auto;
+} */
+
+header input{
+    border-style: none;
+    background-color: white;
 }
 
 .side-bar{
@@ -123,13 +190,28 @@ ul{
     width: 100%;
 }
 
-#page i{
-    font-size: smaller;
-        color:#ccc;
+h5 > i{
+    margin-left: 3px;
 }
 
-.frst h3{
+#page i{
+    font-size: medium;
+        color: #61615e;
+}
+
+.frst h4{
     margin-top: auto;
+}
+
+.frst p{
+    margin-top: auto;
+}
+
+time{
+    color: #71706f;
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: smaller;
 }
 
 .frst{
@@ -142,7 +224,8 @@ button{
 }
 
 #messages{
-    margin-left: 23px;
+    margin: 0px;
+    width: 100%;
 }
  
 
