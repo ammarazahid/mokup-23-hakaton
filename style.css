@@ -103,7 +103,9 @@ li > i{
     margin-top: 1px;
 }
 
-
+.message-1 img{
+    margin-top: 23px;
+}
 img{
     width: 30px;
     height: 30px;
@@ -117,6 +119,8 @@ img{
 
 header i {
     padding: 6px;
+    font-size: medium;
+    color: #61615e;
 }
 
 .left i{
@@ -194,10 +198,10 @@ h5 > i{
     margin-left: 3px;
 }
 
-#page i{
+/* #page i{
     font-size: medium;
         color: #61615e;
-}
+} */
 
 .frst h4{
     margin-top: auto;
@@ -218,16 +222,63 @@ time{
     margin-left: 6px;
 }
 
+#heart-btn{
+    border: 2px solid #1063a3;
+}
+
 button{
-    border: 1px solid #1c9bd2 ;
+    padding: 5px 10px;
     border-radius: 38px;
+    background-color: #f6f6f6;
+    border: none;
+    margin-right: 2px;
+    margin-bottom: 3px; 
+}
+
+#emoji-btn i{
+    color: #fcd864;
+}
+
+#thumb-btn i{
+    color: #fcd864;
+}
+
+#profile{
+    display: flex;
+}
+
+#para{
+    display: flex;
+}
+
+#profile p{
+    margin-right: 5px; 
+}
+
+.frst button{
+    border: 2px solid #1063a3;
+   
+}
+
+
+
+
+#heart-btn i{
+    color: #f64030;
+
 }
 
 #messages{
-    margin: 0px;
+    margin-left: 40px;
     width: 100%;
+    margin-bottom: 10px;
+
+} 
+
+.dp{
+    margin-top: 10px;
+    margin-right: 5px;
 }
- 
 
 #check{
     color: black;
@@ -240,15 +291,34 @@ button{
 
 #second{
     display: flex;
+    flex-direction: column;
+    padding-left: 22px;
+    align-items: flex-end;
+
     
+}
+
+#pin{
+    font-size: small;
+    margin: 3px 0 18px 0px;
+    color:#e8902d;
+
+}
+.pinned{
+    margin: auto;
+    color:   #616061; 
+}
+#msg-2{
+    padding-left: 6px;
 }
 
 #froggy{
     width: 300px;
-    height: 300px;
+    height: 247px;
 }
 
 .message-1{
     display: flex;
-    padding: 20px;
+    padding-left: 25px;
+    padding-bottom:10px;
 }
