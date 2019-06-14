@@ -30,6 +30,15 @@ fieldset{
 
 }
 
+main{
+    display: flex;
+}
+
+#sec-channel-side{
+    width: 600px;
+    border-left: 1px solid #ccc;
+}
+
 
 *{
     font-family: 'Lato', sans-serif;
